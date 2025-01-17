@@ -9,10 +9,10 @@ https://chromewebstore.google.com/detail/time-formatter/fondbippeeecpejdbecpimnd
 # 使用截图
 
 1. 时间戳转格式化时间
-![]{shot/Snipaste_2025-01-11_15-54-01.png}
+![]{https://github.com/alery315/time-formatter/blob/main/shot/Snipaste_2025-01-11_15-54-01.png}
 
-2. 格式化时间转时间戳
-![]{shot/Snipaste_2025-01-11_15-54-31.png}
+3. 格式化时间转时间戳
+![]{/shot/Snipaste_2025-01-11_15-54-31.png}
 
-3. 插件点击展示
-![]{shot/Snipaste_2025-01-17_17-44-0922.png}
+4. 插件点击展示
+![]{/shot/Snipaste_2025-01-17_17-44-0922.png}
