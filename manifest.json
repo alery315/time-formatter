@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "Time Formatter",
+  "version": "1.1",
+  "description": "双击时间戳弹出格式化时间/双击格式化时间弹出时间戳(毫秒)，并支持复制功能",
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-48.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-48.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-48.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/*.png",
+        "icons/*.jpg",
+        "icons/*.gif",
+        "sound/*.ogg"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
